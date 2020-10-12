@@ -1,0 +1,12 @@
+h1 {
+	font-family: Tahoma;
+	font-size: 10em;
+	font-weight: bold;
+	font-style: italy;
+	letter-spacing: 3px;
+	word-spacing: 15px;
+	text-shadow: 10px 10px 1px #333;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
