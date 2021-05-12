@@ -68,6 +68,11 @@ div.absolute {
     bottom: 8px;
     right: 0px;
 }
+
+.bottom {
+  bottom: 1px;
+}
+
 .img-with-text {
     text-align: justify;
     width: [width of img];
@@ -79,6 +84,18 @@ div.absolute {
 
 }
 
+}
+
+@media screen and (min-width: 320px) and (min-height: 320px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
 }
 
 </style>
@@ -116,8 +133,11 @@ div.absolute {
 
             <a href="https://www.facebook.com/SimpleSuperDevelopers"><img src="ASD.png" wdth="200" height="200"></a>
         </div>
-        <center>
-            <font size="8em"><a href="Video.html">About</a></center>
+        <div class="bottom">
+          <center>
+              <font size="8em"><a href="Video.html">About</a></center>
+        </div>
+
 
 
 
